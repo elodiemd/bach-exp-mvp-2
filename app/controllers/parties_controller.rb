@@ -5,7 +5,7 @@ class PartiesController < ApplicationController
   def new
   end
 
-  def form
-    @names= ["Bach of Elo", "Bach of Cam"]
-  end
+  # def form
+  #   @names= ["Bach of Elo", "Bach of Cam"]
+  # end
 end
