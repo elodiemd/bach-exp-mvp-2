@@ -1,4 +1,9 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<button><%=link_to "Form", parties_path %></button>
-<button><%=link_to "Dashboards", dashboards_path %></button>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= asset_path 'home-bach-exp.png' %>);">
+  <div class="text-banner">
+
+    <h1>Organise ta <strong>Bach Party</strong> de rêves</h1>
+    <p>Change your life and learn to code at one of our campuses around the world.</p>
+   <div><button class="bach-but"><%link_to "Form", parties_path %></button></div>
+
+  </div>
+</div>
