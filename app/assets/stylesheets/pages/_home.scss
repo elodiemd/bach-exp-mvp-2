@@ -1,8 +1,8 @@
 // Specific CSS for your home-page
 
+// SLIDER TOP
 .banner {
-
-  height: 800px;
+  height: 400px;
   width: auto;
   background-position: center;
   display: flex;
@@ -14,11 +14,22 @@
 .text-banner {
   color: white;
   text-align: center;
-  background-color: #BCDC6F;
-  padding: 40px;
+  background-color: #f2bb16e5;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
 
+}
+
+// SECTION INFOS
+
+.section-bach-exp {
+  background-color: white;
+  padding: 20px;
+}
+
+.value-prop {
+  background-color: $bach-beige;
 }

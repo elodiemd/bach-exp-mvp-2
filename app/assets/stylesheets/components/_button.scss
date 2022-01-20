@@ -27,7 +27,7 @@
     height: 10px;
     width: 10px;
     background: #FA9B45;
-    box-shadow: 0px 0px 10px 3px #0ff;
+    box-shadow: 0px 0px 10px 3px $bach-yellow;
     margin-left: -8px;
     margin-top: -8px;
     opacity: 0;
@@ -68,8 +68,8 @@
 
     &::after {
       content: "LET'S GO";
-      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc,
-        0 0 30px #82bedc, 0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px $bach-yellow,
+        0 0 30px $bach-yellow, 0 0 40px $bach-yellow, 0 0 50px $bach-yellow, 0 0 60px $bach-yellow;
     }
   }
 }
