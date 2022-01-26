@@ -2,20 +2,28 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
+.testi
+{
+  background-color: #F2EAD0;
+  padding: 30px;
+  justify-content: center;
+}
 .testimonial {
-  font-family: 'Lato', Arial, sans-serif;
   position: relative;
   display: inline-block;
+  justify-content: center;
   overflow: hidden;
   margin: 10px;
-  min-width: 250px;
-  max-width: 310px;
+  min-width: 200px;
+  max-width: 200px;
   width: 100%;
-  background-color: #000000;
+  background-color: $bach-red;
   color: #ffffff;
   text-align: center;
   font-size: 16px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border: 5px solid $bach-yellow;
+  border-radius: 15px;
 }
 
 .testimonial * {
@@ -24,9 +32,13 @@
 }
 
 .testimonial img {
-  max-width: 100%;
+  // max-width: 100%;
   vertical-align: top;
-  opacity: 0.7;
+  opacity: 0.85;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .testimonial figcaption {
@@ -42,20 +54,22 @@
   font-family: 'FontAwesome';
   content: "\201C";
   position: absolute;
-  font-size: 170px;
-  opacity: 0.35;
+  font-size: 115px;
+  opacity: 0.9;
   font-style: normal;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  top: 0px;
+  top: 6px;
   left: 50%;
+  color: $bach-red;
 }
 
 .testimonial blockquote {
   padding: 0;
   margin: 0;
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 12px;
+  background-color: #ffd000b0;
 }
 
 .testimonial h3 {
@@ -68,9 +82,9 @@
 }
 
 .testimonial h5 {
-  font-weight: 400;
+  font-weight: bolder;
   margin: 0;
-  text-transform: uppercase;
-  color: #bbb;
+  // text-transform: uppercase;
+  color: #e0e0e0;
   letter-spacing: 1px;
 }
