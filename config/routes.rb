@@ -10,16 +10,13 @@ Rails.application.routes.draw do
   # # create one party
   # get '/parties/new', to: 'parties#new' #as:thenameofyouwant
   # post '/parties/new', to: 'parties#create' #as:thenameofyouwant
-
   # # update one party
   # get '/parties/:id/edit', to: 'parties#edit' #as:thenameofyouwant
   # patch '/parties/:id', to: 'parties/update'
-
   # # delete one party
   # delete '/parties/:id', to: 'parties#destroy' #as:thenameofyouwant
 
-
-  # CREATING CRUD FOR DASHBOARD
+  # ASHBOARD
   get '/dashboards', to: 'dashboards#show'
 
 
