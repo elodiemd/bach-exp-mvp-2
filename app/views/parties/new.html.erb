@@ -9,7 +9,7 @@
 <form action="/parties" method="post">
     <div class="form-group">
       <label for="name">Quel est le nom de ta Bach Experience ?</label>
-      <textarea class="form-control" id="name" rows="1"></textarea>
+      <input type="text" name="party[name]">
     </div>
 
     <div class="form-group">
@@ -23,7 +23,7 @@
 
     <div class="form-group">
       <label for="gender">Qui est invité ?</label>
-        <select class="form-control" id="gender">
+        <select class="form-control" id="gender" name="party[gender]">
           <option>100% Meuf</option>
           <option>100% Mec</option>
           <option>Mixte</option>
