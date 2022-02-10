@@ -1,1 +1,5 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+New MVP for the Bach Experience. 
+Follow us on Instagram @bachexp
+- Coming in 2022 -
+
+Developped by www.emdigitalstudio.com
