@@ -2,9 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  #resources :parties
-
-
+  resources :parties
   # # CREATING CRUD FOR PARTIES
   # # read all parties : get '/parties', to: 'parties#index'
   # # read one party
@@ -18,10 +16,8 @@ Rails.application.routes.draw do
   # # delete one party
   # delete '/parties/:id', to: 'parties#destroy' #as:thenameofyouwant
 
-  # DASHBOARD
-
-
- # get '/dashboards', to: 'dashboards#show'
+  # ASHBOARD
+  get '/dashboards', to: 'dashboards#show'
 
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
