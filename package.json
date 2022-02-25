@@ -22,7 +22,7 @@
     "webpack-dev-server": "^4.1.0"
   },
    "scripts": {
-    "start": "node index.js"
+    "start": "ruby home.html.erb"
   }
 
 }
