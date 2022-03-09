@@ -18,6 +18,8 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.1.0"
+  },
+  "scripts": {
+    "start": "node app/javascript/channels/index.js"
   }
-
 }
